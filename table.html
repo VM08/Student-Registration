@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <link rel="shortcut icon" href="https://png.pngtree.com/element_our/20190604/ourlarge/pngtree-record-note-office-illustration-image_1468636.jpg" type="image/x-icon">
+    <title>StudentInformationRecord</title>
+</head>
+<body>
+    <fieldset>
+   
+    <center>
+    <h3>STUDENT RECORD</h3>
+    <form action="connect.php" method="post">
+    <table cellpadding="10px">
+        <tr>
+            <td> <label for="name">
+                <span>Name:- </span>   
+             </label>
+            </td>
+            <td>
+            <input type="text" placeholder="Enter the name" id="name" name="one">
+            </td>
+            <td><label for="ten"><span>10th percentage(%):-</span></label></td>       
+            <td><input type="number" name="six" id="ten" placeholder="10th Percentage"></td>  
+
+        </tr>
+        <tr>
+            <td>
+                <label for="mail">
+                    <span>Mail:- </span>   
+                </label>
+            </td>
+            <td>
+            <input type="email" id="mail" placeholder="email" name="two">
+            </td>
+            <td><label for="twelve"><span>12th percentge(%):-</span></label></td>       
+            <td><input type="number" name="seven" id="twelve" placeholder="12th Percentage"></td>     
+        </tr>
+        <tr>
+            <td>
+            <label for="address">
+            
+                <span>Address:- </span>
+            
+            </label>
+            </td>
+            <td>
+                <textarea name="three" id="address" cols="21" rows="5" placeholder="Address"></textarea>
+            </td>  
+            <td> <label for="data"> <span>Date Of Birth:-</span></label> </td>
+            <td><input type="date" name="e" id="data"></td>      
+        </tr>
+        <tr>           
+            <td>
+                <label for="num"><span>Register Number:-</span>
+                </label>
+            </td>      
+            <td><input type="number" name="four" id="num" placeholder="Register number"></td>  
+            <td> <label for="nation"><span>Nationality:-</span></label> </td>
+            <td><input type="text" name="nine" id="nation" placeholder="Nationality"></td>      
+        </tr>
+        <tr>           
+            <td>
+                <label for="num1">
+                    <span>Mobile Number:-</span>
+                </label></td>   
+            <td><input type="tel" name="five" id="num1" placeholder="Mobile number"></td>
+            <td><label for="reli">Religion:-</label></td>
+            <td><input type="text" name="ten" id="reli" placeholder="Religion"></td>   
+        </tr> 
+    </table>
+    <br>
+    <p><input type="submit" value="Submit" class="btn"></p> 
+</form>
+</center>
+</fieldset>
+</body>
+</html>

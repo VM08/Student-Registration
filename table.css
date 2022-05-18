@@ -1,0 +1,108 @@
+table
+{
+    color: rgb(159, 216, 206);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    
+    font-size: large;
+    text-shadow: none;
+    
+}
+input::placeholder
+{
+    color: rgb(24, 95, 112);
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea::placeholder
+{
+    color: rgb(55, 68, 107);
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea
+{
+    border-radius: 10pt;
+}
+
+h3
+{
+    color: rgb(165, 157, 42);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow: none;
+}
+h3:hover
+{
+    color: rgb(182, 23, 116);
+}
+fieldset
+{
+    
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-width: 0;
+   /* background-image: url(https://wallpapercave.com/wp/wp5887041.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+  
+}
+center
+{
+    padding: 30px 30px 30px 30px;
+    margin-top: 2%;
+}
+body
+{
+    background-image: url(https://store-images.s-microsoft.com/image/apps.58868.14403833510503142.72a67ef8-3805-4e1b-9ff0-41a3646fd28a.72151330-72d0-4d1f-91c0-02cafe1e9f4b?mode=scale&q=90&h=1080&w=1920);
+    background-repeat: no-repeat;
+    background-size: 1300px 680px;
+    margin-top: 3%;
+    
+}
+input, textarea
+{
+    padding: 6px;
+    border-radius: 3px;
+    background-color: cadetblue;
+    border: 0;
+
+}
+.date
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn
+{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: rgb(58, 139, 105);
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover
+{
+    color: firebrick;
+}
+input[type="date"]
+{
+    width: 126pt;
+    height: 12.5pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: rgb(55, 68, 107);
+    background-image: url(https://www.citypng.com/public/uploads/preview/flat-vector-gray-red-calendar-icon-hd-png-11640487934h4qlhucyxy.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 90%;
+    text-indent: 10pt;
+    text-justify: distribute-all-lines;
+   
+}
+input[type="date"]::-webkit-calendar-picker-indicator
+{
+    opacity: 0;
+}
